@@ -1,0 +1,32 @@
+<p>pizza works!</p>
+
+
+<div class="container">
+    <div class="row mt-5">
+      <div *ngFor="let pizza of pizzas" class="col-md-3 d-flex justify-content-center">
+        <div class="card mb-4" style="width:19rem;">
+          <div class="showpage">
+            <img class="card-img-top" [src]="pizza.imageUrl" alt="Food image"></div>
+            <div class="content">
+               <div class="name text-center">
+                   {{pizza.name}} ❤️❤️❤️
+                   <div class="d-grid gap-2">
+                 
+                    <button class="btn btn-primary" type="button" (click)="goCart()">Button</button>
+                  </div>
+                </div>
+              
+             </div>
+          
+    
+           
+       
+      
+        </div>
+     
+      </div>
+  
+     
+    </div>
+    
+  </div>

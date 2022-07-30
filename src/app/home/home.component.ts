@@ -25,7 +25,7 @@ export class HomeComponent implements OnInit {
   }
 
   goCustomise(){
-    this.router.navigate(['menu/customise'])
+    this.router.navigate(['menu/pizza'])
   }
    
 }
