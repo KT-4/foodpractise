@@ -1,12 +1,14 @@
-
+<button id="backhome
+" class="btn btn-danger"  value="" *ngIf="goback" (click)="goBack()">Back to home</button>
 <header>
     
        <div class="container">
-          <a href="#" routerLink="/" class="logo"><b>😍😍 Qtonzee Food Corner 😋😋</b></a>
+          <a href="#" class="logo"><b>😍😍 Qtonzee Food Corner 😋😋</b></a>
+       
           <nav>
              <ul>
                 <li>
-                    <a href="#">
+                    <a routerLink="/cart">
                     <span><b>C</b></span>
                     <span><b>a</b></span>
                     <span><b>r</b></span>
@@ -15,6 +17,7 @@
                    </a>
                 </li>
              </ul>
+            
           </nav>
           
        </div> 

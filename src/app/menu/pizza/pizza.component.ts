@@ -18,6 +18,11 @@ export class PizzaComponent implements OnInit {
   }
   goCart(){
     this.router.navigate(['cart'])
+    let audio = new Audio()
+    audio.src = "../../assets/sound/mixkit-water-sci-fi-bleep-902.wav"
+    audio.load()
+    audio.play()
+    
   }
 
 }

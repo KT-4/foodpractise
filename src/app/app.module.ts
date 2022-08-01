@@ -10,8 +10,13 @@ import { HomeComponent } from './home/home.component';
 import { CustomiseComponent } from './menu/customise/customise.component';
 import { NgxStarRatingModule } from 'ngx-star-rating';
 import { PizzaComponent } from './menu/pizza/pizza.component';
-import { CartComponent } from './cart/cart.component';
 
+import {HttpClientModule} from '@angular/common/http';
+import { CartComponent } from './cart/cart.component'
+
+import {ToneAudioNode} from 'tone';
+import { DetilComponent } from './detil/detil.component';
+import { NoodlesComponent } from './noodles/noodles.component';
 
 
 @NgModule({
@@ -23,13 +28,18 @@ import { CartComponent } from './cart/cart.component';
     CustomiseComponent,
     PizzaComponent,
     CartComponent,
+    DetilComponent,
+    NoodlesComponent,
+
+
 
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     ReactiveFormsModule,
-    NgxStarRatingModule
+    NgxStarRatingModule,
+    HttpClientModule
    
   ],
   providers: [],

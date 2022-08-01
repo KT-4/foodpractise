@@ -1,0 +1,11 @@
+.cartrow{
+    box-sizing: border-box;
+    border-radius: 1px solid rgba(8, 166, 240, 0.671);
+    margin:30px;
+    padding: 20px;
+}
+.top-title{
+    font-weight: bold;
+    color:red;
+    
+}

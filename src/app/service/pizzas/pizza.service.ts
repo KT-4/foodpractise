@@ -23,81 +23,49 @@ export class PizzaService {
         },
         {
          id:2,
-         name:"Burgur",
+         name:"cheese-corn",
          price:80,
          cookTime:'30-35',
          favorite:false,
          origins:['india','Asia'],
          stars:3.0,
-         imageUrl:'/assets/bigburger.jpg'
+         imageUrl:'/assets/pizzas/cheesencorn.jpg'
      
         },
         {
          id:3,
-         name:"Manchuriun",
+         name:"deluxveggi",
          price:120,
          cookTime:'30-35',
          favorite:false,
          origins:['india','Asia'],
          stars:3.0,
-         imageUrl:'/assets/manchuriun.jpg',
+         imageUrl:'/assets/pizzas/deluxveggi.jpg',
      
         },
         {
          id:4,
-         name:"Soup",
+         name:"maxicun green wave",
          price:120,
          cookTime:'30-35',
          favorite:true,
          origins:['india','Asia'],
          stars:3.0,
-         imageUrl:'/assets/soup.jpg',
+         imageUrl:'/assets/pizzas/maxicun green wave.jpg',
    
         },
         {
          id:5,
-         name:"Cheez Pizza",
+         name:"peppy panner",
          price:240,
          cookTime:'30-35',
          favorite:false,
          origins:['india','Asia'],
          stars:3.0,
-         imageUrl:'/assets/piiza1.jpg',
+         imageUrl:'/assets/pizzas/peppy paneer.jpg',
          
         },
-        {
-         id:6,
-         name:"Burgur",
-         price:80,
-         cookTime:'30-35',
-         favorite:false,
-         origins:['india','Asia'],
-         stars:3.0,
-         imageUrl:'/assets/burger1.jpg',
         
-        },
-        {
-         id:7,
-         name:"Manchuriun",
-         price:120,
-         cookTime:'30-35',
-         favorite:true,
-         origins:['india','Asia'],
-         stars:3.0,
-         imageUrl:'/assets/manchuriun.jpg',
-        
-        },
-        {
-         id:8,
-         name:"Soup",
-         price:120,
-         cookTime:'10-1 5',
-         favorite:false,
-         origins:['india','Asia'],
-         stars:3.0,
-         imageUrl:'/assets/soup.jpg',
-  
-        },
 
      ]
    }
